@@ -1,0 +1,14 @@
+/* Limpieza total de los márgenes y anchos máximos de Vite */
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%; /* Forzamos a que ocupe todo el ancho */
+  min-height: 100vh;
+  background-color: #212529; /* Fondo oscuro de Bootstrap para evitar destellos blancos */
+  overflow-x: hidden; /* Evita cualquier barra de desplazamiento horizontal */
+}
